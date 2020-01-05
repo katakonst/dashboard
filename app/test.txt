@@ -1,0 +1,77 @@
+{
+"components":[{
+"name": "test",
+"healthcheck": "http://google.ro",
+"misc":[
+{"name": "asdasdad",
+"value": "pacpacpac"
+},
+{
+"name": "asdasdad",
+"value": "pacpacpac"
+}
+],
+"status": "alive",
+ "buttons": [{
+   "name": "test",
+    "url": "http://google.ro",
+    "type": "url"
+ },
+ {
+    "name": "Open Folder",
+     "url": "http://google.ro",
+     "type": "command",
+     "command": "ii /home/katakonst"
+  }]
+},
+{
+"name": "test",
+"healthcheck": "http://google.ro",
+"misc":[
+{"name": "asdasdad",
+"value": "pacpacpac"
+},
+{
+"name": "asdasdad",
+"value": "pacpacpac"
+}
+],
+"status": "alive",
+ "buttons": [{
+   "name": "test",
+    "url": "http://google.ro",
+    "type": "url"
+ },
+ {
+    "name": "Open Folder",
+     "url": "http://google.ro",
+     "type": "command",
+     "command": "ii /home/katakonst"
+  }]
+},
+{
+"name": "test",
+"healthcheck": "http://google.ro",
+"misc":[
+{"name": "asdasdad",
+"value": "pacpacpac"
+},
+{
+"name": "asdasdad",
+"value": "pacpacpac"
+}
+],
+"status": "alive",
+ "buttons": [{
+   "name": "test",
+    "url": "http://google.ro",
+    "type": "url"
+ },
+ {
+    "name": "Open Folder",
+     "url": "http://google.ro",
+     "type": "command",
+     "command": "ii /home/katakonst"
+  }]
+}]
+}

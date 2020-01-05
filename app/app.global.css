@@ -1,0 +1,79 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-color: #232c39;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+  overflow-y: hidden;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.app {
+  border: 1px solid #111;
+  flex-grow: 1;
+}
+.up {
+  background: linear-gradient(#01ff70, #2ecc40);
+}
+
+.down {
+  background: linear-gradient(#ff851b, #ff4136);
+}
+
+.checking {
+  background: linear-gradient(#ff851b, #ffdc00);
+}
+
+.loading {
+  animation: loadingAnimation 1s infinite;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.unknown {
+  background: linear-gradient(#ff851b, #ffdc00);
+}
